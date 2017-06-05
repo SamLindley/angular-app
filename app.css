@@ -1,0 +1,62 @@
+body{
+    background: url("https://source.unsplash.com/EUhk0hrHaFY");
+    background-size: cover;
+    background-position: center;
+    font-family: Lato;
+    color: white;
+}
+
+html{
+    height: 100%;
+}
+
+h1{
+
+    font-family: lobster;
+    font-size: 8em;
+}
+
+.number-rating{
+    width: 110px;
+    margin: auto;
+}
+
+.thumbnailHr{
+    margin-bottom: 5px;
+}
+
+.goRight .ng-binding{
+    text-align: right;
+}
+
+.thumbnail{
+    background-color: indianred;
+    border: hidden;
+}
+
+.thumbnail img{
+    height: 250px;
+    background-color: black;
+}
+
+.artistInfo{
+    font-family: lobster;
+    font-size: 0.5em;
+    color: whitesmoke;
+}
+
+#content{
+    text-align: center;
+    padding-top: 25%;
+
+}
+
+#voteContent{
+    text-align: center;
+    padding-top: 10%;
+}
+
+#innerContent{
+    text-shadow: 0px 4px 3px red,
+    0px 8px 13px orange;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <base href="/">
+  <title>G.O.A.T</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="app.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato|Lobster" rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css">
+
+  <script src="bower_components/angular/angular.js"></script>
+  <script src="bower_components/angular-animate/angular-animate.min.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap.min.js"></script>
+  <script src="bower_components/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+  <script src="bower_components/angular-route/angular-route.min.js"></script>
+
+  <script src="app/app.module.js"></script>
+  <script src="app/app.config.js"></script>
+
+  <script src="app/navbar/navbar.module.js"></script>
+  <script src="app/navbar/navbar.controller.js"></script>
+  <script src="app/navbar/navbar.component.js"></script>
+
+  <script src="app/home/home.module.js"></script>
+  <script src="app/home/home.controller.js"></script>
+  <script src="app/home/home.component.js"></script>
+
+  <script src="app/artist/artist.module.js"></script>
+  <script src="app/artist/artist.controller.js"></script>
+  <script src="app/artist/artist.component.js"></script>
+  <script src="app/artist/artist.service.js"></script>
+  <script src="app/artist/artist-vote/artist-vote.controller.js"></script>
+  <script src="app/artist/artist-vote/artist-vote.component.js"></script>
+
+</head>
+<body ng-app="app">
+    <navbar-component>
+
+    </navbar-component>
+  <div ng-view>
+
+  </div>
+</body>
+</html>
