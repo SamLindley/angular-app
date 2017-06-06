@@ -1,0 +1,8 @@
+
+.gitignore
+.idea/
+angular-app.iml
+app/artist/artist-details/
+bower_components/
+node_modules/
+resources/
